@@ -1,0 +1,110 @@
+body {
+    background-color: #f1eded;
+    font-family: 'Poppins' , sans-serif;
+}
+.container{
+    background-color: whithe;
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+} 
+.perfil img {
+border-radius: 100px;
+margin: 20px 0;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+width: 200px;
+}
+.servicos {
+    margin-top: 40px;
+}
+.contato {
+    margin-top: 30px;
+}
+h1 {
+    color: #2563eb;
+    margin-bottom: 10px;
+    font-weight:700;
+}
+h2{
+    margin-top: 0;
+    color: #333;
+}
+h3{
+    margin-top: 30px;
+}
+img {
+    border-radius: 100px;
+    margin: 20px 0 ;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 8px;
+}
+a {
+    background-color: #25d366;
+    color: rgb(243, 227, 227);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+a:hover{
+    background-color: #128c7e;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+@media (max-width: 600px) {
+body {
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 20px;
+}
+img {
+    width: 150px;
+}
+a {
+    padding: 12px 24px;
+    display: block;
+}
+}
+.contato a, .contato button {
+    background-color: #25d366;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: 600;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 10px 5px;
+}
+.contato button {
+    background-color: #2563eb;
+}
+.contato a:hover {
+    background-color: #128c7e;
+    transform: scale(1.05);
+}
+.contato button:hover {
+    background-color: #1d4db8;
+}
